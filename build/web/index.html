@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <title>
+        Signup page
+    </title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+
+<body>
+    <div id="login-box">
+        <div class="left-box">
+            <h1>
+                Log-In
+            </h1>
+            <form method="POST" action="LogServlet">
+            <input type="text" name="username" placeholder="Enter the Username" />
+            <input type="text" name="email" placeholder="Email" />
+            <input type="password" name="password" placeholder="Password" />
+            <select name="AccType">
+                <option value="student" selected>
+                    Student
+                </option>
+                <option value="faculty">
+                    Faculty
+                </option>
+                <option value="staff">
+                    Staff
+                </option> 
+                <option value="admin">
+                    Admin
+                </option>
+                    
+            </select>
+
+           
+            <a href="index1.html"><input type="submit" name="login-button" value="Log-In" /></a>
+</form>
+        </div>
+
+        <div class="right-box">
+            <span class="signinwith"> Sign in with <br/>
+                Social Network
+            </span>
+
+            <button class="social facebook">Log in with Facebook</button>
+            <button class="social twitter">Log in with Twitter</button>
+            <button class="social google">Log in with Google</button>
+        </div>
+
+        <div class="or">OR</div>
+
+    </div>
+</body>
+
+</html>
